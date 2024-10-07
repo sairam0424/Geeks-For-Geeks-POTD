@@ -1,12 +1,11 @@
-def insert(head,data):
+def insert(head, data):
     
     new_node = Node(data)
     
-    new_node = new_node.npx
+    new_node.npx = head
     
     return new_node
-
-
+    
 def getList(head):
     
     res = []
